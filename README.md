@@ -1,2 +1,7 @@
-# app-Web-2017-A
-Repositorio de la materia we 2017A
+#Comandos
+## Levantar Servidor HTTP
+Para levantar el servidor
+usamos el comando:
+```
+>>http server
+```
