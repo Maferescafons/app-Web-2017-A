@@ -1,0 +1,70 @@
+h1{
+    background-color: aquamarine;
+    color: darkslateblue;
+}
+#uno{
+    background-color: brown;
+    color: cyan;
+}
+button{
+    background-color: darkturquoise;
+    color: plum;
+}
+#boton1{
+    background-color: blue;
+    color: chartreuse;
+}
+.boton-cuidado{
+    background-color: darkred;
+    color: blue;
+}
+.boton-exito{
+    background-color: darkslateblue;
+    color: blue;
+}
+button{
+    border: solid;
+    border-color: yellow;
+
+}
+button{
+
+}
+
+button:hover{
+    background-color: darkslateblue;
+    color: darkturquoise;
+
+}
+button:focus{
+    background-color: darkturquoise;
+    color: black;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    -webkit-animation-name: example;
+    -webkit-animation-duration:4s;
+    animation-iteration-count:infinite;
+
+
+}
+@-webkit-keyframes example {
+    0%{
+        background-color: darkturquoise;
+        left:50px;
+        top: 25px;
+
+    }
+    25%{
+        background-color: darkturquoise;
+    }
+    50%{
+        background-color: aquamarine;
+    }
+    100%{
+        background-color: darkcyan;
+    }
+
+}
