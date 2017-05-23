@@ -47,7 +47,7 @@ var objetoComplejo= {
     fechaNaciemiento: new Date(),
     mayorEdad:true,
     peso:70.2,
-    altura:127
+    altura:127,
     saltar:function () {
         console.log("Saltar");
     },
@@ -59,11 +59,10 @@ var objetoComplejo= {
     sumar:function (a,b) {
         return a+b;
 
-    }
+    },
     ImprimirNombre:function () {
         return objetoComplejo.nombre + " " + objetoComplejo.apellido
         return this.nombre + " " + this.apellido;
-
     }
 };
 objetoComplejo.altura//127
@@ -78,7 +77,14 @@ objetoComplejo.titulo= "bachiller";
 delete objetoComplejo.nombre;
 
 var arreglosStrings =["1","2"];
-arreglosStrings.push("3")//["1","2","3"]
-arreglosStrings.pop("3");//["1","2"]
-arreglosStrings.splice(2,0,4,6);
-
+//arreglosStrings.push("3")//["1","2","3"]
+//arreglosStrings.pop("3");//["1","2"]
+console.log(arreglosStrings);
+arreglosStrings.splice(1,0,"3");
+console.log(arreglosStrings);
+var arreglosStrings =["1","3","2"];
+//arreglosStrings.push("3")//["1","2","3"]
+//arreglosStrings.pop("3");//["1","2"]
+console.log(arreglosStrings);
+arreglosStrings.splice(1,1);
+console.log(arreglosStrings);
