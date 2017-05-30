@@ -10,7 +10,7 @@ function multiplicarX1 (n1,n2){
     };
     return {
         resultado.n1 = resultado.n1*2;
-        resultado.n2 = resultado.n2*2;
+        resultado.n2 = resultado.n2*2
 
         return resultado;
     }
