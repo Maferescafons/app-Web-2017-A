@@ -1,0 +1,43 @@
+/**
+ * Created by USRDEL on 3/6/17.
+ */
+
+//FILTER
+
+let arreglo = [
+    {
+        nombre:"Fernanda",
+        apellido:"Escobar",
+        nota:10,
+        id:1
+    },
+    {
+        nombre:"Samia",
+        apellido:"Escobar",
+        nota:6,
+        id:2
+    },
+    {
+        nombre:"Adrian",
+        apellido:"Bermudez",
+        nota:8,
+        id:3
+    },
+    {
+        nombre:"Felipe",
+        apellido:"Cajas",
+        nota:6.5,
+        id:4
+    },
+    {
+        nombre:"Carlos",
+        apellido:"Estevez",
+        nota:9,
+        id:5
+    }
+];
+let resultado= arreglo.filter((valor, indice, arreglo)=>){
+    return valor.id>3;
+};
+console.log(resultado);
+
