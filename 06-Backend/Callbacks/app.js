@@ -2,7 +2,9 @@
 const fs = require('fs');
 const express= require('express');
 calculadora = require('twj-escobar');
-const passwords= require('machinepack-passwords')
+//Callback
+
+//
 let a= 2,
 b=3,
 resultado;
@@ -11,7 +13,7 @@ resultado= resultado.calculadoraUdla.sumar(a,b);
 console.log(`Resultado es: ${resultado}`);
 
 let passwordAEncrptar="1234";
-passwords.encryptPassword({
+calculadora.CalculadoraUdla.password.encryptedPassword({
     password:passwordAEncrptar,
 })
     .exec({

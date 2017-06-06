@@ -1,5 +1,6 @@
 // Index.js
-var Passwords = require('machinepack-passwords');
+let Passwords = require('machinepack-passwords');
+//passsword
 exports.CalculadoraUdla={
     sumar: (n1,n2)=>{
         return n1+n2;
