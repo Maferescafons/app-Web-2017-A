@@ -1,0 +1,15 @@
+{
+  "name": "aweb-examen-01-escobar-fernanda",
+  "version": "1.0.1",
+  "description": "examen de app-web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "escafons",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {}
+}
